@@ -53,11 +53,13 @@ A lógica de cálculo foi implementada utilizando a linguagem DAX para garantir 
 
 Fórmula para cálculo do retorno sobre o insumo aplicado:
 
+$$Eficiência = \frac{\sum Produtividade}{\sum Fertilizante}$$
 
 ### 4.2 Ajuste de Escala para Umidade
 
 Cálculo de normalização para permitir a comparação visual direta entre umidade e produtividade no gráfico de linhas:
 
+$$Umidade \text{ } Escalada = Media(Umidade\_Solo\_Pct) \times 100$$
 
 
 ## 5. Objetivos de Aprendizado Alcançados
